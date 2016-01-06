@@ -1,19 +1,27 @@
 {
-	"name":"MyTestExtension",
+	"name":"XuetangXHelper",
 	"version":"0.9.0",
 	"description":"You Guess",
+	"icons": {
+		"48": "icon48.png",
+		"128": "icon128.png"
+	},
 	"permissions": [
 		"declarativeContent",
 		"webNavigation",
 		"http://www.xuetangx.com/"
 	],
 	"page_action": {
-		"default_icon":"test.png",
-		"default_title":"SIKAO"
+		"default_icon": {
+			"19": "icon19.png",
+			"38": "icon38.png"
+		},
+		"default_title":"学堂助手",
+		"default_popup":"popup.html"
 	},
 	"manifest_version":2,
 	"background": {
-		"scripts": ["test.js"],
+		"scripts": ["main.js"],
 		"persistent": false
 	}
 }

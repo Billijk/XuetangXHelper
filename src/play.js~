@@ -20,7 +20,6 @@
 	}
 	function init() {
 		var videos = document.getElementsByClassName("xt_video_player");
-		console.log(videos.length);
 		if (videos.length == 0) {
 			onVideoEnded();
 		}
