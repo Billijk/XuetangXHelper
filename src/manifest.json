@@ -1,0 +1,19 @@
+{
+	"name":"MyTestExtension",
+	"version":"0.9.0",
+	"description":"You Guess",
+	"permissions": [
+		"declarativeContent",
+		"webNavigation",
+		"http://www.xuetangx.com/"
+	],
+	"page_action": {
+		"default_icon":"test.png",
+		"default_title":"SIKAO"
+	},
+	"manifest_version":2,
+	"background": {
+		"scripts": ["main.js"],
+		"persistent": false
+	}
+}
